@@ -6,7 +6,6 @@ _Estas instrucciones te permitirán implementar los servicos rest de flow.cl a t
 
 ### Requisitos e Instalación 📋
 
-
 _Requisitos_
 * Crear una cuenta en [Flow.cl](https://sandbox.flow.cl) (Esto es una cuenta de pruebas)
 * **NO COMPARTAS TU API KEY Y SECRET KEY CON NADIE**
@@ -39,7 +38,7 @@ Flow nos propociona 2 ambientes para trabajar una de **PRODUCCIÓN** y otro de *
 * Selecciona **Controlador de API con acciones de lectura y escritura**
 * Por ultimo, llamala CustomersController
 
-Según la documentación de FLOW antes de enviar una petición, debes ordenar los parámetros de forma alfábetica yy ir firmarlo con
+Según la documentación de FLOW antes de enviar una petición, debes ordenar los parámetros de forma alfábetica y firmarlo con
 el método **hmac** pero menos la **S**
 
-**Ejemplo**
+![Ejemplo](https://i.ibb.co/X712zsp/Ejemplo1.png)
