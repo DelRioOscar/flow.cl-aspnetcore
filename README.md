@@ -42,3 +42,25 @@ Según la documentación de FLOW antes de enviar una petición, debes ordenar lo
 el método **hmac** pero menos la **S**
 
 ![Ejemplo](https://i.ibb.co/X712zsp/Ejemplo1.png)
+
+Asi que vamos a crear un cliente en la página de rest api con peticiones.
+
+* Así debe estar tu appsetting.json, la ventaja de usar este archivo es que en cualquier momento que quieras cambiar tu apiKey 
+cambiará hasta en el código fuente sin tener que estresarte y pasar por cada clase a cambiarlo.
+
+```
+{
+  "Flow": {
+    "ApiKey": "TU API KEY AQUÍ",
+    "SecretKey": "TU SECREY KEY",
+    "Server": "https://sandbox.flow.cl/api"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+```
