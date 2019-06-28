@@ -8,7 +8,7 @@ _Estas instrucciones te permitirán implementar los servicos rest de flow.cl a t
 
 _Requisitos_
 * Visual Studio
-* Postman o Insominia (Cualquier cliente REST es a tu elección)
+* Postman o Insomnia (Cualquier cliente REST es a tu elección)
 * Crear una cuenta en [Flow.cl](https://sandbox.flow.cl) (Esto es una cuenta de pruebas)
 * **NO COMPARTAS TU API KEY Y SECRET KEY CON NADIE**
 
